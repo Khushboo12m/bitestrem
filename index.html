@@ -38,18 +38,24 @@
             <a href="#" class="btn-link">Learn More</a>
           </div>
         </div>
-        
-        <div class="hero-right">
+
+         <div class="hero-right">
           <div class="hero-images-container">
             <img class="hero-img-small" src="images/hero_small.jpg" alt="Small hero" />
             <img class="hero-img-middle" src="images/hero_middle.jpg" alt="Middle hero" />
             <img class="hero-img-main" src="images/hero.jpg" alt="Main hero" />
-          </div>
+      </div>
         </div>
       </div>
     </div>
      <div class="frame-2">
-      <img class="mask-group" src="img/mask-group.png" />
+      <div class="about-imgs">
+        <div class="about-img-left">
+          <img src="images/section2_first.jpg" alt="smiling woman with food" class="about-img-square" />
+          <img src="images/section2_first.jpg" alt="pizza" class="about-img-landscape" />
+        </div>
+        <img src="images/section2_first.jpg" alt="tripod" class="about-img-tall" />
+      </div>
       <div class="div">
         <div class="div-2">
           <div class="text-wrapper">About Bitestream</div>
@@ -60,15 +66,15 @@
         </div>
         <div class="div-3">
           <div class="div-4">
-            <div class="image-wrapper"><img class="image" src="img/image-3.svg" /></div>
+            <div class="image-wrapper">🎥</div>
             <p class="text-wrapper-2">Stream &amp; Earn from your food content</p>
           </div>
           <div class="div-4">
-            <div class="image-wrapper"><img class="image" src="img/image-2.svg" /></div>
+            <div class="image-wrapper">🤝</div>
             <p class="text-wrapper-2">Partner with your favourite food brands</p>
           </div>
           <div class="div-4">
-            <div class="image-wrapper"><img class="image" src="img/image.svg" /></div>
+            <div class="image-wrapper">💸</div>
             <div class="text-wrapper-2">Transparent payments, no middlemen</div>
           </div>
         </div>
@@ -196,28 +202,24 @@
     </div>
 
     <div class="frame-5">
-      <img class="rectangle" src="images/contact_us.jpg" />
-      <div class="div">
-        <div class="div-2">
-          <div class="div-3">
-            <div class="text-wrapper">Join the Waitlist</div>
-            <p class="p">“Join the waitlist to get early access and exclusive creator rewards.”</p>
-          </div>
-          <p class="text-wrapper-2">Be the first to get early access + a chance to win a £100 kitchen gift card</p>
+      <img class="waitlist-image" src="images/contact_us.jpg" alt="Join the Waitlist" />
+      <div class="waitlist-content">
+        <div class="waitlist-heading">Join the Waitlist</div>
+        <div class="waitlist-description">
+          <p class="waitlist-caption">“Join the waitlist to get early access and exclusive creator rewards.”</p>
+          <p class="waitlist-small">
+            Be the first to get early access + a chance to win a £100 kitchen gift card
+          </p>
         </div>
-        <div class="div-4">
-          <div class="div-3">
-            <div class="div-5">
-              <div class="div-wrapper"><div class="text-wrapper-3">First Name</div></div>
-              <div class="div-wrapper-2"><div class="text-wrapper-4">First Name</div></div>
-            </div>
-            <div class="div-5">
-              <div class="div-wrapper"><div class="text-wrapper-3">Email Id</div></div>
-              <div class="div-wrapper-2"><div class="text-wrapper-4">Email Id</div></div>
-            </div>
-          </div>
-          <div class="div-wrapper-3"><div class="text-wrapper-5">Join Now</div></div>
-        </div>
+        <form class="waitlist-form">
+          <label class="waitlist-label" for="waitlist-name">First Name</label>
+          <input class="waitlist-input" id="waitlist-name" name="first_name" type="text" placeholder="First Name" />
+
+          <label class="waitlist-label" for="waitlist-email">Email Id</label>
+          <input class="waitlist-input" id="waitlist-email" name="email" type="email" placeholder="Email Id" />
+
+          <button class="waitlist-button" type="submit">Join Now</button>
+        </form>
       </div>
     </div>
 
@@ -256,4 +258,4 @@
       </div>
     </div>
   </body>
-</html> 
+</html>
