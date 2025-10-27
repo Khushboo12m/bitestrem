@@ -1,0 +1,20 @@
+.s4-left {
+  display: flex;
+  flex-direction: column;
+  width: 687px;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+.s4-left .img {
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.s4-left .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}

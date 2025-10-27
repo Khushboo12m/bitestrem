@@ -1,0 +1,114 @@
+.s4-right {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+}
+
+.s4-right .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.s4-right .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Karla-Bold", Helvetica;
+  font-weight: 700;
+  color: #222222;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.s4-right .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Karla-Bold", Helvetica;
+  font-weight: 700;
+  color: #3a3a3a;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.s4-right .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.s4-right .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Karla-Regular", Helvetica;
+  font-weight: 400;
+  color: #3a3a3a;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.s4-right .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Karla-Regular", Helvetica;
+  font-weight: 400;
+  color: #3a3a3a;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.s4-right .div-3 {
+  display: inline-flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 22px;
+  position: relative;
+  background-color: #83efb7;
+  border-radius: 40px;
+}
+
+.s4-right .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Karla-Medium", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.s4-right .solar-arrow-up {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1;
+}
+
+.s4-right .vector {
+  position: absolute;
+  width: 50.00%;
+  height: 66.67%;
+  top: 23.30%;
+  left: 23.31%;
+}
